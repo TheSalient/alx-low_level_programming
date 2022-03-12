@@ -4,7 +4,7 @@ int main(void)
 {
 int i = 0;
 /*after declaration*/
-while (i <=9;)
+while (i <=9)
 	{
 	printf("%d", i);
 	i++;
