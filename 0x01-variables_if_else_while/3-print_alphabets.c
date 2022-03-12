@@ -9,13 +9,14 @@ int main(void)
 	char a = 'a';
 	char A = 'A';
 	int n = 0;
+	/*This is where the major code is*/
 	while (n < 52)
 	{
 		if (n < 26)
 		{
 			putchar(a);
 			a++;
-		} else 
+		}else 
 		{
 			putchar(A);
 			A++;
