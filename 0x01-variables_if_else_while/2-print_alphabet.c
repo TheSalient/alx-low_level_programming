@@ -4,6 +4,7 @@
  *
  * return : 0 on success. Error code otherwise
  */
+/*main content*/
 int main(void)
 {
 	char a = 'a';
