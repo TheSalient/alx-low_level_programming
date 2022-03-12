@@ -3,7 +3,7 @@
  *
  * the main code
  *
- * */
+ */
 int main(void)
 {
 int i = 0;
