@@ -2,7 +2,7 @@
 
 int main(void)
 {
-char = 'a';
+char ch = 'a';
 int i = 0;
 
 while (i < 16)
