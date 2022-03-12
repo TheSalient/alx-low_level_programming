@@ -7,6 +7,7 @@
 int main(void)
 {
 	 char ch = 'a';
+	 /*main code*/
 	 while (ch <= 'z')
 	{
 		if (ch != 'e' && ch != 'q')
