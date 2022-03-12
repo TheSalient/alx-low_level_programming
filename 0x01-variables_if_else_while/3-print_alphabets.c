@@ -6,8 +6,8 @@
  */
 int main(void)
 {
-	char a = "a";
-	char A = "A";
+	char a = 'a';
+	char A = 'A';
 	int n = 0;
 	while (n < 52)
 	{
@@ -22,6 +22,6 @@ int main(void)
 		}
 		n++;
 	}
-	putchar("/n");
+	putchar('/n');
 	return (0);
 }
