@@ -1,5 +1,9 @@
 #include <stdio.h>
-/*the main code*/
+/**
+ *
+ * the main code
+ *
+ * */
 int main(void)
 {
 int i = 0;
