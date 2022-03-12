@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-char a = "a";
+char a = 'a';
 int b = 0;
 while (b < 26)
 {
@@ -14,6 +14,6 @@ while (b < 26)
 	a++;
 	b++;
 }
-putchar("\n");
+putchar('\n');
 return (0);
 }
