@@ -1,7 +1,17 @@
 #include "main.h"
-int _putchar(char c); /* This is the _putchar. */
-int main(void) /*This is where the main function begins*/
+int _putchar(char c); 
+/**
+ * _putchar
+ * @c 
+ * 
+ * @return int 
+ */
+int main(void) 
 {
+/**
+ * @brief 
+ * 
+ */
 _putchar('_');
 _putchar('p');
 _putchar('u');
