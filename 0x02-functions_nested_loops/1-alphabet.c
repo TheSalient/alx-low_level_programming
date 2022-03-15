@@ -6,6 +6,5 @@ char c = 97;
 while(c < 123)
     _putchar('c');
 _putchar('\n');
-return (0);
 }
 
