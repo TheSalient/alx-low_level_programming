@@ -1,5 +1,5 @@
 #include "main.h"
-int _putchar(char c); /* This is where the libraries are. */
+int _putchar(char c); /* This is the _putchar. */
 int main(void) /*This is where the main function begins*/
 {
 _putchar('_');
@@ -11,7 +11,7 @@ _putchar('h');
 _putchar('a');
 _putchar('r');
 _putchar('\n');
-    return 0;
+return (0);
 }
 
 
