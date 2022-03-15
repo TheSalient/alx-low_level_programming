@@ -1,4 +1,3 @@
-#include <stdio>
 #include "main.h"
 /* 
 * This is where the libraries are.
