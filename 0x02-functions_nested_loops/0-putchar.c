@@ -1,17 +1,17 @@
 #include "main.h"
-int _putchar(char c); 
+int _putchar(char c);
 /**
- * _putchar: This is used to output the character.
- * '@c' 
- * '@return int' 
- */
+* _putchar: This is used to output the character.
+* @c
+* @return int 
+*/
 int main(void) 
 {
 /**
- * main: This is the main function
- * "@brief" 
- * 
- */
+* main: This is the main function
+* @return void 
+* 
+*/
 _putchar('_');
 _putchar('p');
 _putchar('u');
