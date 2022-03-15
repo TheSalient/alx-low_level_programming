@@ -2,13 +2,13 @@
 /**
 * _putchar - This is used to output the character.
 * @c: This is a character
-* @return: int
+* Return: int
 */
 int _putchar(char c);
 /**
 * main - This is the main function
-* @return: void
 *
+* Return: Always 0.
 */
 int main(void)
 {
