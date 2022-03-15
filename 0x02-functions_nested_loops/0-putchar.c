@@ -1,15 +1,15 @@
 #include "main.h"
 int _putchar(char c); 
 /**
- * _putchar
- * @c 
- * 
- * @return int 
+ * _putchar: This is used to output the character.
+ * '@c' 
+ * '@return int' 
  */
 int main(void) 
 {
 /**
- * @brief 
+ * main: This is the main function
+ * "@brief" 
  * 
  */
 _putchar('_');
