@@ -12,6 +12,9 @@ for (d = 0; d < 10; d++)
 {
 z = c * d;
 _putchar(z + '0');
+_putchar(',');
+_putchar(' ');
+_putchar(' ');
 }
 _putchar('\n');
 }
