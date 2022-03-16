@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * print_alphabet_x10 - This is a function
+ * _islower - This is a function
+ * @c: This is the parameter
  * Return : Always 0 and 1
  */
 int _islower(int c)
