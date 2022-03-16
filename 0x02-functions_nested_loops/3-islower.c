@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _islower- This is a function islower
- * @c: This is the parameter
- * Return : Always 0 and 1
+ * _islower- This is a function islower.
+ * @c: This is the parameter.
+ * Return: Always 0 and 1 for true and false.
  */
 int _islower(int c)
 {
