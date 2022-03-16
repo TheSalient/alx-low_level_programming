@@ -19,6 +19,7 @@ _putchar(h1 + '0');
 _putchar(':');
 _putchar(m2 + '0');
 _putchar(m1 + '0');
+_putchar('\n')
 if (m1 == 10)
 {
 m1 = 0;
@@ -29,7 +30,7 @@ if (m2 == 6)
 m2 = 0;
 }
 }
-if (h1 == 4 && h2 == 2)
+if (h1 == 3 && h2 == 2)
 {
 h1 = 10;
 }
