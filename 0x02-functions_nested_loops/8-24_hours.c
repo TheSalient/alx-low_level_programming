@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_last_digit - This is a function
+ * jack_bauer - This is a function
  * Return: Always 0
  */
 void jack_bauer(void)
