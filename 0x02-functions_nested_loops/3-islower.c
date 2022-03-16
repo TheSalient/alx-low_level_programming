@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _islower - This is a function
+ *_islower - This is a function
  * @c: This is the parameter
  * Return : Always 0 and 1
  */
