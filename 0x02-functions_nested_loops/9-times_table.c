@@ -11,7 +11,7 @@ for (c = 0; c < 10; c++)
 for (d = 0; d < 10; d++)
 {
 z = c * d;
-_putchar(z +'0');
+_putchar(z + '0');
 }
 _putchar('\n');
 }
