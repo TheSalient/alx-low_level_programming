@@ -10,7 +10,7 @@ for (c = 0; c < 10; c++)
 {
 for (d = 0; d < 10; d++)
 {
-int z = c * d;
+z = c * d;
 _putchar('z');
 _putchar(',');
 _putchar(' ');
