@@ -13,6 +13,6 @@ if (l < 0)
 l = l * -1;
 }
 _putchar(l + '0');
-_putchar('\n');
 return (l);
+
 }
