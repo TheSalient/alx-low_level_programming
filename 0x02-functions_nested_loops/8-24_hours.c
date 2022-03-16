@@ -19,7 +19,7 @@ _putchar(h1 + '0');
 _putchar(':');
 _putchar(m2 + '0');
 _putchar(m1 + '0');
-_putchar('\n')
+_putchar('\n');
 if (m1 == 10)
 {
 m1 = 0;
