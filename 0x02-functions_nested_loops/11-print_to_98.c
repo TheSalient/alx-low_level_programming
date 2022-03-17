@@ -7,42 +7,22 @@
 void print_to_98(int n)
 {
 int i;
-for (i = n; i <= 98; i++)
+if (n < 98)
 {
-if (i < -9 )
+for (i = n; i < 98; i++)
 {
-_putchar('-');
-_putchar('0' + (i / 10));
-_putchar('0' + (i % 10));
-_putchar(',');
-_putchar(' ');
+printf("%d", i);
+printf(",");
+printf(" ");
 }
-else if (i<0 && i >= -9)
-{
-_putchar('-');
-_putchar('0' + i);
-_putchar(',');
-_putchar(' ');
 }
-else if (i >= 0 && i < 10)
+else
 {
-_putchar('0' + i);
-_putchar(',');
-_putchar(' ');
-}
-else if (i >= 10 && i < 100)
+for (i = n; i >= 98; i--)
 {
-_putchar('0' + (i / 10));
-_putchar('0' + (i % 10));
-_putchar(',');
-_putchar(' ');
-}
-else if (i >= 100)
-{
-_putchar('0' + (i / 100));
-_putchar('0' + (i % 10));
-_putchar(',');
-_putchar(' ');
+printf("%d", i);
+printf(",");
+printf(" ");
 }
 }
 }
