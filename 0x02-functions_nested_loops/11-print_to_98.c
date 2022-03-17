@@ -19,11 +19,12 @@ printf(" ");
 }
 else
 {
-for (i = n; i >= 98; i--)
+for (i = n; i > 98; i--)
 {
 printf("%d", i);
 printf(",");
 printf(" ");
 }
 }
+printf("98\n");
 }
