@@ -16,7 +16,7 @@ n++;
 else if (n > 98)
 {
 _putchar(n + '0');
-_puthchar(',');
+_putchar(',');
 _putchar(' ');
 n--;
 }
