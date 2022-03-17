@@ -32,7 +32,7 @@ _putchar((z % 10) + '0');
 _putchar(',');
 _putchar(' ');
 }
-else if (z >= 10 && d > 9)
+else if (z >= 10 && d < 10)
 {
 _putchar((z / 10) + '0');
 _putchar((z % 10) + '0');
