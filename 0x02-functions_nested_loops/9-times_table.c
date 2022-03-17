@@ -10,12 +10,25 @@ for (c = 0; c < 10; c++)
 {
 for (d = 0; d < 10; d++)
 {
-z = 0;
 z = c * d;
+if (c == 0)
+{
 _putchar(z + '0');
+}
+else if (z < 10 && c != 0)
+{
 _putchar(',');
 _putchar(' ');
 _putchar(' ');
+_putchar(z + '0');
+}
+else if  ( z >= 10)
+{
+_putchar(',');
+_putchar(' ');
+_putchar((z / 10) + '0');
+_putchar((z % 10) + '0');
+}
 }
 _putchar('\n');
 }
