@@ -14,15 +14,21 @@ if (i < -9 )
 _putchar('-');
 _putchar('0' + (i / 10));
 _putchar('0' + (i % 10));
+_putchar(',');
+_putchar(' ');
 }
 else if (i<0 && i >= -9)
 {
 _putchar('-');
 _putchar('0' + i);
+_putchar(',');
+_putchar(' ');
 }
 else if (i >= 0 && i < 10)
 {
-_putchar(i);
+_putchar('0' + i);
+_putchar(',');
+_putchar(' ');
 }
 else if (i >= 10 && i < 100)
 {
