@@ -25,12 +25,17 @@ _putchar(',');
 _putchar(' ');
 _putchar(' ');
 }
-else if (z >= 10)
+else if (z >= 10 && c < 9)
 {
 _putchar((z / 10) + '0');
 _putchar((z % 10) + '0');
 _putchar(',');
 _putchar(' ');
+}
+else if (z >= 10 && c < 10)
+{
+_putchar((z / 10) + '0');
+_putchar((z % 10) + '0');
 }
 }
 _putchar('\n');
