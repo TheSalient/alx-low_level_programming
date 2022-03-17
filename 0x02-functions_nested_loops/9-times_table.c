@@ -17,17 +17,18 @@ _putchar(z + '0');
 }
 else if (z < 10 && c != 0)
 {
-_putchar(',');
-_putchar(' ');
-_putchar(' ');
 _putchar(z + '0');
+_putchar(' ');
+_putchar(' ');
+_putchar(',');
 }
 else if (z >= 10)
 {
-_putchar(',');
-_putchar(' ');
 _putchar((z / 10) + '0');
 _putchar((z % 10) + '0');
+_putchar(',');
+_putchar(' ');
+_putchar(' ');
 }
 }
 _putchar('\n');
