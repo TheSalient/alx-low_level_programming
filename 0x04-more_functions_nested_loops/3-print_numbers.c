@@ -1,7 +1,8 @@
 #include "main.h"
 /**
  * print_numbers - This is a function
- * Return: Always l and n
+ * 
+ * Return: Always 0
  */
 void print_numbers(void)
 {
