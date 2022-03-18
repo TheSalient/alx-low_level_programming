@@ -3,9 +3,11 @@
  * _isdigit - This is a function
  * @a: This is the parameter
  * @b: This is the parameter
- * Return: Always l and n
+ * Return: Always c
  */
 int mul(int a, int b)
 {
-return (a * b);
+int c = 0;
+c = a * b;
+return (c);
 }
