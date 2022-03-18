@@ -12,7 +12,7 @@ if (n > 0)
 {
 while (i < n)
 {
-while(k < i)
+while (k < i)
 {
 _putchar(' ');
 k++;
