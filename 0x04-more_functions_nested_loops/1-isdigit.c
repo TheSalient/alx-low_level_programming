@@ -2,11 +2,12 @@
 /**
  * _isdigit - This is a function
  * @c: This is the parameter
- * Return: Always l and n
+ * Return: Always l and 0
  */
 int _isdigit(int c)
 {
-if (c >= 0 && c <= 9)
+int n = c;
+if (n >= 0 && n <= 9)
 return (1);
 else
 {
