@@ -25,22 +25,22 @@ for (i = 1; i <= 100; i++)
 if (i % 15 == 0)
 {
 printf("FizzBuzz");
-putchar(' ');
+_putchar(' ');
 }
 else if (i % 5 == 0)
 {
 printf("Buzz");
-putchar(' ');
+_putchar(' ');
 }
 else if (i % 3 == 0)
 {
 printf("Fizz");
-putchar(' ');
+_putchar(' ');
 }
 else
 {
 printf("%d", i);
-putchar(' ');
+_putchar(' ');
 }
 }
 }
