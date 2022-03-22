@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio>
 /**
  * puts_half - a function that takes a pointer to an int as parameter and
  * @a: chaine of caractere
