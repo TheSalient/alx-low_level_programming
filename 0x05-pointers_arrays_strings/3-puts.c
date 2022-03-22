@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * swap_int - check the code
- *@a: This is the parameter.
+ * _puts - check the code
+ *@str: This is the parameter.
  * Return: Always 0.
  */
 void _puts(char *str)
