@@ -11,5 +11,5 @@ while (s[i])
 {
 i++;
 }
-retrun (i);
+return (i);
 }
