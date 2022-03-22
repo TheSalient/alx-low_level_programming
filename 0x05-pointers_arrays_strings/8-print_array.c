@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * puts_half - a function that takes a pointer to an int as parameter and
+ * print_array - a function that takes a pointer to an int as parameter and
  * @a: chaine of caractere
  * @n: The second parameter
  * Return: 1 or 0
