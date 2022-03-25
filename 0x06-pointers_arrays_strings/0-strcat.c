@@ -1,25 +1,25 @@
 #include "main.h"
 /**
- * _strcat - a function that takes a pointer to an int as parameter and
- * @dest: chaine of caractere
- * @src: cahine caractere
+ * _strcat - a function ...
+ * @dest: the chaine
+ * @src: the chaine
  *
- * Return: dest
+ * Return: 1 or 0
  */
-char *_strcat (char *dest, char *src)
+char	*_strcat(char *dest, char *src)
 {
-int i = 0;
-while (dest[i])
-{
-if (dest[i] == '\0')
-{
-int k = 0; 
-while (src[k])
-dest[i + 1] = src[k];
-k++;
-}
+int	i;
+int	j;
+i = 0;
+j = 0;
+while (dest[i] && dest[i] != '\0')
 i++;
+while (src[j])
+{
+dest[i] = src[j];
+i++;
+j++;
 }
+dest[i] = '\0';
 return (dest);
-putchar('\n');
 }
