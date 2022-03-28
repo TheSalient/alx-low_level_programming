@@ -1,26 +1,16 @@
-#include "main.h"
+#include <stddef.h>
+
 /**
  * _strchr - a function ...
- * @s: char
- *@c: char
+ * @s: the chaine
+ * @c: the char
  *
- * Return: char
+ * Return: 1 or 0
  */
+
 char *_strchr(char *s, char c)
 {
-char **e;
-int i;
-for (i = 0; i < sizeof(s); i++)
-{
-if (s[i] == c)
-{
-int d;
-for (d = i; d < sizeof(s); d++)
-{
-e = s[d];
-}
-return (e);
-break;
-}
-}
+	for (; *s != '\0' && *s != c; ++s)
+		;
+	return (*s == c ? (char *) s : NULL);
 }
