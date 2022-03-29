@@ -1,27 +1,4 @@
 #include <string.h>
-
-/**
- * compare - a function ...
- * @X: the chaine
- * @Y: the chaine
- *
- * Return: 1 or 0
- */
-
-int	compare(const char *X, const char *Y)
-{
-	while (*X && *Y)
-	{
-		if (*X != *Y)
-		{
-			return (0);
-		}
-		X++;
-		Y++;
-	}
-	return (*Y == '\0');
-}
-
 /**
  * _strstr - a function ...
  * @haystack: the chaine
@@ -29,21 +6,27 @@ int	compare(const char *X, const char *Y)
  *
  * Return: 1 or 0
  */
-
 char *_strstr(char *haystack, char *needle)
 {
-	int	i;
-
-	i = 0;
-	if (haystack[0] == '\0')
-		return (haystack);
-	while (haystack[i])
-	{
-		if ((*haystack == *needle) && compare(haystack, needle))
-		{
-			return (haystack);
-		}
-		haystack++;
-	}
-	return (NULL);
+int index;
+if (*needle == 0)
+{
+return (haystack);
+}
+while (*haystack)
+{
+index = 0;
+if (haystack[index] == needle[index])
+{
+do
+{
+if (needle[index + 1] == '\0')
+return (haystack);
+index++;
+}
+while (haystack[index] == needle[index]);
+}
+haystack++;
+}
+return ('\0');
 }
