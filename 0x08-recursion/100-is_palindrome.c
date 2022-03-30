@@ -20,7 +20,7 @@ return (0);
 }
 if (b < (e + 1))
 {
-return isPalRec(s, b + 1, e - 1);
+return (isPalRec(s, b + 1, e - 1));
 }
 return (1);
 }
@@ -32,10 +32,10 @@ return (1);
 */
 int is_palindrome(char *s)
 {
- int n = strlen(s);
+int n = strlen(s);
 if (n == 0)
 {
 return (1);
-}    
-return isPalRec(s, 0, (n - 1));
+}
+return (isPalRec(s, 0, (n - 1)));
 }
