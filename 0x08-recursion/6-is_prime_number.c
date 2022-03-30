@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* _root - function
+* _prime - function
 *
 * @a: the chaine
 * @n: the second parameter
@@ -23,7 +23,7 @@ return (_prime(n, a + 1));
 }
 
 /**
-* _sqrt_recursion - function
+* is_prime_number - function
 *
 * @n: the chaine
 * Return: Always 0.
