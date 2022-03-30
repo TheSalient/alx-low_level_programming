@@ -36,5 +36,5 @@ if (n == 0)
 {
 return (1);
 }    
-return isPalRec(*s, 0, (n - 1));
+return isPalRec(s, 0, (n - 1));
 }
