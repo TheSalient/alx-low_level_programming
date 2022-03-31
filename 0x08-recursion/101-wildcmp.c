@@ -1,13 +1,9 @@
 #include "main.h"
-#include <string.h>
-
-
 /**
-* isPalRec - function
+* wildcmp - function
 *
-* @s: the chaine
-* @b: another parameter
-* @e: another parameter
+* @s1: the chaine
+* @s2: another parameter
 * Return: Always 0.
 */
 int wildcmp(char *s1, char *s2)
