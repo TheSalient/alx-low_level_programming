@@ -1,5 +1,5 @@
-#include "main.h"
 #include <stdio.h>
+#define UNUSED(x) (void)(x)
 /**
 * main - function
 *
@@ -9,6 +9,7 @@
 */
 int main(int argc, char *argv)
 {
+UNUSED(argc);
 Printf("%s\n", argv[0]);
 return (0);
 }
