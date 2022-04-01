@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 /**
 * main - function
@@ -11,7 +10,7 @@ int main(int argc, int **argv)
 {
 if (argc == 3)
 {
-Printf("%d\n", (argv[1] * argv[2]));
+printf("%d\n", (argv[1] * argv[2]));
 }
 else
 {
