@@ -2,6 +2,6 @@
 
 int main(void)
 {
-    _puts("I thank God");
+    _puts("I thank God for me.");
     return (0);
 }
