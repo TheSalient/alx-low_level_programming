@@ -11,7 +11,7 @@ char * _strdup(const char *s)
 {
 int len = strlen(s) + 1;
 void *new = malloc(len);
-if (new == NULL)
+if (s == NULL)
 {
 return ("failed to allocate memory\n");
 }
