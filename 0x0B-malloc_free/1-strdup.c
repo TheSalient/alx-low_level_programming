@@ -1,7 +1,6 @@
-#if defined _LIBC || defined STDC_HEADERS
 #include <string.h>
 #include <stdlib.h>
-#endif
+#include <stdio.h>
 /**
  * _strdup - the function that print char in specific number.
  * @s: the size to print.
