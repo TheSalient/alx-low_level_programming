@@ -8,12 +8,11 @@
  *
  * Return: char.
  */
-extern int make_iso_compilers_happy;
 char * _strdup(const char *s)
 {
 size_t len = strlen(s) + 1;
 void *new = malloc(len);
-if (new == NULL)
+if (s == NULL)
 {
 return (NULL);
 }
