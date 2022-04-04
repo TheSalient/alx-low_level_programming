@@ -16,5 +16,8 @@ if (s == NULL)
 {
 return (NULL);
 }
-return ((char *) memcpy (new, s, len));
+else
+{
+return((char *) memcpy (new, s, len));
+}
 }
