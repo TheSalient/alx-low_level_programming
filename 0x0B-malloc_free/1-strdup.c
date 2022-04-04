@@ -11,9 +11,9 @@ char * _strdup(const char *s)
 {
 int len = strlen(s) + 1;
 void *new = malloc(len);
-if (s == NULL)
+if (new == NULL)
 {
-return ("failed to allocate memory\n");
+return (NULL);
 }
 return ((char *) memcpy(new, s, len));
 }
