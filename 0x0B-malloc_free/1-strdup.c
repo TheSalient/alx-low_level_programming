@@ -14,10 +14,10 @@ size_t len = strlen(s) + 1;
 void *new = malloc(len);
 if (s == NULL)
 {
-return (NULL);
+printf("failed to allocate memory\n");
 }
 else
 {
-return((char *) memcpy (new, s, len));
+return ((char *) memcpy(new, s, len));
 }
 }
