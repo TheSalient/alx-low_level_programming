@@ -15,6 +15,7 @@ void *new = malloc(len);
 if (s == NULL)
 {
 printf("failed to allocate memory\n");
+return (NULL);
 }
 return ((char *) memcpy(new, s, len));
 }
