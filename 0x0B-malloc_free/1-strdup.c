@@ -13,7 +13,7 @@ int len = strlen(s) + 1;
 void *new = malloc(len);
 if (new == NULL)
 {
-return (NULL);
+return ("failed to allocate memory\n");
 }
 return ((char *) memcpy(new, s, len));
 }
