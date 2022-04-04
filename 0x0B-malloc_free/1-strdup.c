@@ -16,8 +16,5 @@ if (s == NULL)
 {
 printf("failed to allocate memory\n");
 }
-else
-{
 return ((char *) memcpy(new, s, len));
-}
 }
