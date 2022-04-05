@@ -7,7 +7,7 @@
  * Return: char.
  */
 
-char * _strdup(const char *s)
+char *_strdup(const char *s)
 {
 	char *src;
 	int len = 0, i = 0;
