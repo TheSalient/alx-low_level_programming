@@ -1,14 +1,17 @@
 #include <stdlib.h>
+
 /**
  * _strdup - the function that print char in specific number.
  * @s: the size to print.
  *
  * Return: char.
  */
+
 char * _strdup(const char *s)
 {
 	char *src;
 	int len = 0, i = 0;
+
 	if (s == NULL)
 		return (NULL);
 	while (s[len])
@@ -25,3 +28,4 @@ char * _strdup(const char *s)
 	}
 	return (src);
 }
+
