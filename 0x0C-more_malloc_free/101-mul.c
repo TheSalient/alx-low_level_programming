@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <ctype.h>
 unsigned int *multiply(int num1, int num2)
 {
     if (isdigit(num1) && isdigit(num2))
