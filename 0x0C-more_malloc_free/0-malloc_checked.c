@@ -4,7 +4,7 @@
 /**
  * malloc_checked - The function
  * @b: A parameter
- * 
+ *
  * Return: 1 or 0
  */
 
