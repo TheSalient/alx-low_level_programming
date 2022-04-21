@@ -3,14 +3,14 @@
 
 /**
  * print_list - the function that prints
- * @h: The parameter 
- * 
- * Return: size_t 
+ * @h: The parameter
+ *
+ * Return: size_t
  */
 size_t print_list(const list_t *h)
 {
 size_t the = 0;
-    
+
 while (h)
 {
 if (!h->str)
