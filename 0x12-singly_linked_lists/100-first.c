@@ -3,8 +3,8 @@
 void first(void) __attribute__((constructor));
 
 /**
- * first - The next function. 
- * 
+ * first - The next function.
+ *
  */
 void first(void)
 {
