@@ -1,9 +1,7 @@
-#include <stdio.h>
-#include <stddef.h>
 #include "lists.h"
 
 /**
- * print_list - the function that prints
+ * print_listint - the function that prints
  * @h: The parameter
  *
  * Return: size_t
