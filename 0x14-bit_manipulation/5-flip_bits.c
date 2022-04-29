@@ -18,8 +18,8 @@ for (i = 63; i >= 0; i--)
 the = current >> i;
 if (the & 1)
 {
-the++;
+count++;
 }
 }
-return (the);
+return (count);
 }
