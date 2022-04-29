@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * Get_bit - the function.
+ * get_bit - the function.
  * @n: the first parameter.
  * @index: the second parameter.
  *
