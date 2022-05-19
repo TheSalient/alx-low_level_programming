@@ -1,11 +1,15 @@
 #include <stdio.h>
-/*
+#include <string.h>
+
+/**
  * main - Entry point
+ *
  * Return: Always 0 (success)
  */
 int main(void)
-/* this is the main function */
 {
-puts("\"Programming is like building a multilingual puzzle\n");
+char str[] = "\"Programming is like building a multilingual puzzle";
+
+puts(str);
 return (0);
 }
