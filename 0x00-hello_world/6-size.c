@@ -1,22 +1,22 @@
 #include <stdio.h>
-/*
-*This comment is for the main function
+
+/**
+* main - This comment is for the main function
+*
+* Return: Always 0 (success)
 */
 int main(void)
-	/**
-	 * main
-	 * pain
-	 */
 {
 int a;
 long int b;
 long long int c;
 char d;
 float f;
-printf("size of a char: %lu byte(s)\n", (unsigned long) sizeof(d));
-printf("size of an int: %lu byte(s)\n", (unsigned long) sizeof(a));
-printf("size of a long int: %lu byte(s)\n", (unsigned long) sizeof(b));
-printf("size of a long long int: %lu byte(s)\n", (unsigned long) sizeof(c));
-printf("size of a float: %lu byte(s)\n", (unsigned long) sizeof(f));
+
+printf("size of a char: %d byte(s)\n", sizeof(d));
+printf("size of an int: %d byte(s)\n", sizeof(a));
+printf("size of a long int: %d byte(s)\n", sizeof(b));
+printf("size of a long long int: %d byte(s)\n", sizeof(c));
+printf("size of a float: %d byte(s)\n", sizeof(f));
 return (0);
 };
