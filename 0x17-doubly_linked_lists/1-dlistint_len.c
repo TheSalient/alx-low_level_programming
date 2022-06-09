@@ -14,7 +14,7 @@ size_t dlistint_len(const dlistint_t *h)
 
 	if (h == 0)
 		return (nb);
-	/*Recherche de la tete de liste*/
+
 	if (h->prev != NULL)
 		while (h->prev != NULL)
 			h = h->prev;
