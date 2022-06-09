@@ -1,0 +1,56 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+	  {
+		  "args": [
+			  "--extensionDevelopmentPath=${workspaceFolder}"
+		  ],
+		  "name": "Launch Extension",
+		  "outFiles": [
+			  "${workspaceFolder}/out/**/*.js"
+		  ],
+		  "preLaunchTask": "npm",
+		  "request": "launch",
+		  "type": "extensionHost"
+	  },
+	  {
+		  "type": "lldb",
+		  "request": "attach",
+		  "name": "Attach",
+		  "pid": "${command:pickMyProcess}" // use ${command:pickProcess} to pick other users' processes
+	  },
+	  {
+		  "name": "(lldb) Launch",
+		  "type": "cppdbg",
+		  "request": "launch",
+		  "program": "enter program name, for example ${workspaceFolder}/a.out",
+		  "args": [],
+		  "stopAtEntry": false,
+		  "cwd": "${fileDirname}",
+		  "environment": [],
+		  "externalConsole": false,
+		  "MIMode": "lldb"
+	  },
+	  {
+		  "name": "(lldb) Attach",
+		  "type": "cppdbg",
+		  "request": "attach",
+		  "program": "enter program name, for example ${workspaceFolder}/a.out",
+		  "processId": "${command:pickProcess}",
+		  "MIMode": "lldb"
+	  },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": true,
+      "cwd": "/Users/lawal_azeez/Desktop/alx-low_level_programming/0x15-file_io",
+      "environment": [],
+      "program": "/Users/lawal_azeez/Desktop/alx-low_level_programming/0x15-file_io/build/Debug/outDebug",
+      "internalConsoleOptions": "openOnSessionStart",
+      "MIMode": "gdb",
+      "console": "integratedTerminal"
+    }
+  ]
+}

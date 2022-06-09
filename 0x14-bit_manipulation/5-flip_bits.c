@@ -9,17 +9,17 @@
  */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
-int i, count = 0;
-unsigned long int the;
-unsigned long int current = n ^ m;
+	int i, count = 0;
+	unsigned long int the;
+	unsigned long int current = n ^ m;
 
-for (i = 63; i >= 0; i--)
-{
-the = current >> i;
-if (the & 1)
-{
-count++;
-}
-}
-return (count);
+	for (i = 63; i >= 0; i--)
+	{
+		the = current >> i;
+		if (the & 1)
+		{
+			count++;
+		}
+	}
+	return (count);
 }
