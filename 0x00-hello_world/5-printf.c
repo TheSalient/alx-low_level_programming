@@ -1,7 +1,10 @@
 #include <stdio.h>
-/*
-*This is a comment for the main
-*/
+
+/**
+ * main - this is the function.
+ *
+ * Return: the function returns 0.
+ */
 int main(void)
 	/* This is the main function */
 {
